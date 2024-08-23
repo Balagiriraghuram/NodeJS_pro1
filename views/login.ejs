@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:aquamarine;
+        }
+        div{
+            background-color: aqua;
+            width: 500px;
+            height: 150px;
+            box-shadow: 0 4px 8px 0 black ;
+            padding: 1%;
+            margin:10% 15% ;
+        }
+        input{
+            width: 70%;
+            height: 25px;
+        }
+        button{
+            height: 35px;
+            width: 20%;
+            margin: 0 30%;
+            font-size: 25px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+   <h1> Login page </h1>
+   
+    <div>
+        <form action="/login" method="POST">
+           <lable>username : </lable>
+           <input type="text" placeholder="username" name="username"/>
+        
+           <br><br>
+           <lable>password : </lable>
+           <input type="text" placeholder="password" name="password"/>
+           <br><br>
+           <button type="submit" >Login</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
